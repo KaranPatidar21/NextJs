@@ -1,0 +1,31 @@
+    .sideBar {
+    border-right: 2px solid rgb(192, 192, 192);
+    margin-right: 10px;
+    }
+    .navItems {
+        padding-left: 0px !important;
+    }
+    .navLinks {
+        width: 100%;
+        color: #000000;
+        font-weight: 700;
+        font-size: 18px;
+        text-decoration: none !important;
+        margin-left: 15px;
+        }
+    .navLists {
+        background-color: white;
+        transition: background-color 0.3s ease;
+        padding: 20px 0; /* Adjust padding */
+        cursor: pointer;
+      }
+      
+      .navLists:hover {
+        background-color: lightgray;
+      }
+      
+      .active {
+        background-color: gray !important; /* Active link background color */
+        color: white; /* Active link text color */
+      }
+     

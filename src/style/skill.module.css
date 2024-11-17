@@ -1,0 +1,134 @@
+.skillTabSection{
+    display: flex;
+    width: 1100px;
+}
+.leftSide{
+    width: 60%;
+}
+.rightSide{
+    width: 40%;
+}
+.htmlBox{
+    border: 2px solid rgb(182, 182, 182);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.UpdateBtn button{
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.UpdateBtn button:hover{
+    background-color: rgb(83, 83, 248);
+}
+.htmlImage{
+    height: 100px;
+    width: 100px;
+}
+.htmlContent{
+    padding-top: 20px;
+}
+.quickBox{
+    border: 2px solid rgb(182, 182, 182);
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.quickIcons{
+    background-color: rgb(224, 224, 224);
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 20px;
+    
+}
+.numberCount{
+    background-color: blue;
+    color: #fff;
+    padding: 4px 9px;
+    margin-right: 10px;
+    border-radius: 50%;
+    
+}
+.progressBarSection{
+    border: 2px solid rgb(182, 182, 182);
+    padding: 20px; 
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.circleProgressBarSection{
+    border: 2px solid  rgb(182, 182, 182);
+    padding: 20px; 
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-bottom: 60px;
+    padding-bottom: 50px;
+}
+
+ .modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContent {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .inputField {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .modalButtons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .saveButton {
+    background: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cancelButton {
+    background: #f44336;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+.circleProgressBarSection{
+
+}
+.graphSection{
+    border: 2px solid rgb(182, 182, 182);
+    padding: 20px; 
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    /* margin-left: 10px; */
+}
